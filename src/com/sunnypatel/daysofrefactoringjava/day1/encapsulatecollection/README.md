@@ -1,3 +1,9 @@
+## Note
+- https://dzone.com/articles/collections-and-encapsulation-in-java
+- https://stackoverflow.com/a/48346160/10393067
+	- thay đổi giá trị collection nên được theo dõi bởi owner class 
+- https://refactoring.guru/encapsulate-collection  	
+
 In certain scenarios it is beneficial to not expose a full collection to consumers of a class.
 Some of these circumstances is when there is additional logic associated with adding/removing items from a collection.
 Because of this reason, it is a good idea to only expose the collection as something you can iterate over without modifying the collection. Let’s take a look at some code
